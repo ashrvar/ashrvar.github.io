@@ -1,0 +1,728 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+nav {
+    font-family: 'SuisseIntl',Arial,sans-serif;
+    position: fixed;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    top: 1vw;
+    z-index: 2; 
+    color: black;
+}
+
+
+nav a {
+    color: black;
+    text-decoration: none;
+    font-size: 2vw;
+    margin-top: 0.5vw;
+}
+
+
+nav button {
+    color:#000000;
+    font-size:1.5vw;
+    font-family:'SuisseIntl',Arial,sans-serif;
+    line-height:1.55;
+    font-weight:400;
+    border-width:0.1vw;
+    border-radius:3rem;
+    background-position:center center;
+    border-color:black;
+    border-style:solid;
+    transition: all 0.4s;
+    background: transparent;
+    width: 10vw;
+}
+
+nav .btns {
+    display: flex;
+    margin-left: 35%;
+    font-size: 10vw;
+}
+
+nav .btns button {
+    margin-right: 1vw;
+}
+
+nav button:hover {
+    background-color:#000000;
+    background-image: none;
+    color:#ffffff;
+}
+
+
+
+
+
+section .box {
+    display: flex;  
+}
+
+
+section .main_pic {
+    width: 50vw;
+}
+
+
+
+
+section .right_container {
+    background-color: #3b06eb;
+}
+
+
+section .right_container .text {
+    margin-top: 25%;
+    color: white;
+    font-family: 'SuisseIntl',Arial,sans-serif;
+    border-color: transparent;
+    margin-left: 3vw;
+}
+
+section .right_container .text h1 {   
+    line-height: 0.90;
+    font-size: 5vw;
+    font-weight: 50;
+}
+
+section .right_container .text h2 {
+    margin: 2vw 1vw 3vw 0;
+    font-size: 1.5vw;
+}
+
+section .right_container button{
+    font-size: 1.5vw;
+    font-family: 'SuisseIntl',Arial,sans-serif;
+    border-radius: 5vw;
+    background-color: #ffffff;
+    border-color: #ffffff;
+    padding: 1.5vw;
+    border-style: solid;
+    cursor: pointer;
+    line-height: 1.00;
+    /* border-width: 1vw; */
+}
+
+section .right_container button:hover{
+    background-color: #7a7676;
+    border-color: #7a7676;
+}
+
+
+
+
+
+.border {
+    position: relative;
+    border-radius: 3vw;
+    background-color: white;
+    border-color: transparent;
+    border-style: solid;
+    margin-top: -9%;
+    z-index: 1;
+    padding-left: 2%;
+    padding-right: 1%;
+    padding-right: 0;
+}
+
+
+.projects {
+    margin-bottom: 12vw;
+}
+
+.projects h2{
+    margin: 4% auto;
+    font-size: 5vw;
+    font-family: 'SuisseIntl',Arial,sans-serif;
+    font-weight: 50;
+}
+
+.projects .box1 {
+    position: relative;
+    display: flex;
+    gap: 3vw; 
+    margin-bottom: 12vw;
+    height: 50vw;
+}
+
+
+.projects .box1 .sub_box1 {
+    position: relative;
+    background-color: #e5e5e5;
+    width: 50%; 
+    /* height: 45vw; */
+    border-radius: 3%;
+       
+    background-image: url(../img/project_pic1.jpg);
+    /* bac */
+    /* transition: 0.3s; */
+    background-repeat: no-repeat;
+    background-size: 80%;
+    /* background-size: cover; */
+    background-position: center;
+}
+
+.projects .box1 .sub_box2 {
+    position: relative;
+    background-color: #e5e5e5;
+    width: 50%;
+    border-radius: 3%;
+    
+    background-image: url(../img/project_pic2.jpg);
+    /* transition: 0.3s; */
+
+    background-repeat: no-repeat;
+    background-size:  30vw;
+    background-position: center;
+}
+
+
+.projects .box1 button {
+    border: none; 
+    background-color: #e5e5e5;
+    cursor: pointer;
+}
+
+.projects .box1 .btns{
+    position: absolute;
+    top: 3vw;
+    left: 1vw;
+}
+
+
+.projects .box1 .button {
+    margin-left: 1vw;
+    color: #1a1a1a;
+    text-decoration: none;
+    font-size: 1vw;
+    border-radius: 50vw;
+    border: 1vw solid;
+    background-color: #ffffff;
+    border-color: transparent;
+    font-family: 'SuisseIntl', Arial, sans-serif;
+    font-size: 1.3vw;
+    border-width: 0.8vw;
+}
+
+.projects .box1 .sub_box1:hover{ 
+    background-size: cover;
+    background-image: url(../img/project_bc1.jpg);
+}
+
+.projects .box1 .sub_box2:hover{
+    background-size: cover;
+    background-image: url(../img/project_bc2.jpg);
+}
+
+.projects .box1 .text{
+    position: absolute;
+    top: 100%;
+    left: 1vw;
+    font-size: 2vw;
+    border-color: transparent;
+}
+
+
+.projects .box2{
+    position: relative;
+    display: block;
+    /* display: flex;
+    justify-content: ; */
+    /* width: 100%; */
+    display: flex;
+    flex-direction: column;
+     justify-content: center;  /*y-axis */
+    /* align-items :center;      x-axis */
+    height: 50vw;
+    border-radius: 1.5vw;
+    background-color: #3b06eb; 
+    margin-bottom: 7vw;
+}
+
+.projects .box2 .btns {
+    display: flex;
+    position: absolute;
+    top: 2vw;
+    left: 2vw;
+    gap: 1vw;
+}
+
+.projects .box2 button {
+    color: #1a1a1a;
+    text-decoration: none;
+    font-size: 1vw;
+    border-radius: 50vw;
+    border: 1vw solid;
+    background-color: #ffffff;
+    border-color: transparent;
+    font-family: 'SuisseIntl', Arial, sans-serif;
+    font-size: 1.3vw;
+    border-width: 0.5vw;
+}
+
+.projects video {
+    width: 70%;
+    border-radius: 1.2vw;
+}
+
+
+.projects .box2 .box2_text {
+    position: absolute;
+    /* margin-top: 5vw;
+    margin-left: 1vw; */
+    top: 100%;
+    color: #1a1a1a;
+    font-size: 3vw;
+    font-family: 'SuisseIntl',Arial,sans-serif;
+    line-height: 0.9;
+    letter-spacing: -0.03vw;
+    border-color: transparent;
+    border-style: solid;
+    background-color: transparent;
+}
+
+
+
+.projects .box3 {
+    display: flex;
+    gap: 3vw; 
+    margin-bottom: 12vw;
+}
+
+
+.projects .box3 .sub_box1 {
+    position: relative;
+    background-color: #e5e5e5;
+    width: 59%; 
+    height: 45vw;
+    border-radius: 3%;
+    /* padding-top: 1vw;  */
+    background-image: url(../img/project3_pic1.jpg);
+    /* transition: 0.3s; */
+    background-repeat: no-repeat;
+    background-size:  40vw;
+    background-position: center;
+}
+.projects .box3 .sub_box2 {
+    position: relative;
+    background-color: #e5e5e5;
+    width: 59%; 
+    height: 45vw;
+    border-radius: 3%;
+    background-image: url(../img/project3_pic2.jpg);
+    /* transition: 0.2s; */
+    background-repeat: no-repeat;
+    background-size:  33vw;
+    background-position: bottom 20% right 50%;
+}
+
+
+.projects .box3 button {
+    border: none; 
+    background-color: #e5e5e5;
+    cursor: pointer;
+}
+
+.projects .box3 .btns{
+    position: absolute;
+    top: 3vw;
+    left: 1vw;
+}
+
+
+.projects .box3 .button {
+    margin-left: 1vw;
+    color: #1a1a1a;
+    text-decoration: none;
+    font-size: 1vw;
+    border-radius: 50vw;
+    border: 1vw solid;
+    background-color: #ffffff;
+    border-color: transparent;
+    font-family: 'SuisseIntl', Arial, sans-serif;
+    font-size: 1.3vw;
+    border-width: 0.8vw;
+}
+
+.projects .box3 .sub_box1:hover{ 
+    background-image: none;
+    background-size: cover;
+    background-image: url(../img/project3_bc1.jpg);
+}
+
+.projects .box3 .sub_box2:hover{
+    background-color: #3b06eb;
+    background-image: url(../img/project3_bc2.jpg);
+}
+
+.projects .box3 .text{
+    position: absolute;
+    top: 100%;
+    color: #1a1a1a;
+    font-size: 3vw;
+    font-family: 'SuisseIntl',Arial,sans-serif;
+    line-height: 0.9;
+    letter-spacing: -0.03vw;
+    border-color: transparent;
+    border-style: solid;
+    background-color: transparent;
+    z-index: 100;
+}
+
+
+.services{
+    margin-bottom: 7vw;
+}
+
+.services h2 {
+    color: #1a1a1a;
+    font-size: 6vw;
+    font-family: 'SuisseIntl',Arial,sans-serif;
+    line-height: 0.9;
+    font-weight: 400;
+    letter-spacing: -0.2vw;
+    background-position: center center;
+    border-color: transparent;
+    border-style: solid;
+    margin-bottom: 6vw;
+}
+
+
+
+.services .big_box {
+    margin: 2vw;
+    margin-left: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.services hr {
+    width: 97%;
+    background-color: #000000;
+    border-radius: 10rem;
+    height: 0.15vw;
+}
+
+.services .sub_box {
+    position: relative;
+    display: flex;
+    margin-top: 3vw;
+}
+
+.services .text {
+    margin-left: 7vw;
+}
+
+.services .text h3 {
+    color: #1a1a1a;
+    font-size: 3vw;
+    font-family: 'SuisseIntl',Arial,sans-serif;
+    line-height: 1.2;
+    font-weight: 400;
+    border-color: transparent;
+    border-style: solid;
+    margin-bottom: 1vw;
+}
+
+.services .text h4 {
+    color: #1a1a1a;
+    font-size: 1.5vw;
+    font-family: 'SuisseIntl',Arial,sans-serif;
+    line-height: 1.4;
+    font-weight: 400;
+    opacity: 0.7;
+    border-color: transparent;
+    border-style: solid;
+}
+
+.services img {
+    position: absolute;
+    width: 7%;
+}
+
+
+
+.about {
+    display: flex;
+    gap:2vw;
+    margin-bottom: 6vw;
+}
+
+.about .face{
+    flex: 0 0 45%;
+}
+
+.about .face img {
+    width: 100%;
+}
+
+
+.about h2 {
+    color: black;
+    font-size: 2.5vw;
+    font-family: 'SuisseIntl',Arial,sans-serif;
+    line-height: 1;
+    font-weight: 400;
+    letter-spacing: 0.1vw;
+    background-position: center center;
+    border-color: transparent;
+    border-style: solid;
+    width: 70%;
+}
+
+.about .right_box {
+        flex: 0 0 50%;
+}
+
+
+.about .sub_right_box1 {
+    display: flex;
+    margin-top: 1.5vw;
+}
+
+.about .sub_right_box1 h3 {
+    flex: 0 0 50%;
+    color: #1a1a1a;
+    font-size: 1.3vw;
+    font-family: 'SuisseIntl',Arial,sans-serif;
+    line-height: 1.4;
+    font-weight: 400;
+    opacity: 0.7;
+    background-position: center center;
+    border-color: transparent;
+    border-style: solid;
+}
+
+.about u {
+    cursor: pointer;
+}
+
+
+.about .sub_right_box2 {
+    display: flex;
+    color: #1a1a1a;
+    font-size: 1.4vw;
+    font-family: 'SuisseIntl',Arial,sans-serif;
+    line-height: 1.4;
+    font-weight: 400;
+    background-position: center center;
+    border-color: transparent;
+    border-style: solid;
+    justify-content: space-around;
+    margin-top: 4vw;
+}
+
+.about .sub_right_box2 .awards {
+    width: 45%;
+}
+
+.about .sub_right_box2 li {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.about .sub_right_box2 .awards h3 {
+    color: black;
+    font-size: 2vw;
+    letter-spacing: -0.05vw;
+    font-weight: 400;
+}
+
+.about .sub_right_box2 li h4 {
+    margin-top: 1vw;
+    font-size: 1.25vw;
+    color: #6d6d6d;
+    font-family: 'SuisseIntl',Arial,sans-serif;
+    line-height: 1.4;
+    font-weight: 400;
+    opacity: 0.7;
+}
+
+.about .sub_right_box2 li h5 {
+    margin-top: 2vw;
+    font-size: 0.7vw;
+    color: #1a1a1a;
+    font-family: 'SuisseIntl',Arial,sans-serif;
+    line-height: 1.4;
+    font-weight: 400;
+    opacity: 0.5;
+    background-position: center center;
+    border-color: transparent;
+    border-style: solid;
+}
+
+
+.about .sub_right_box2 .rats {
+    width: 20vw;
+}
+
+.about .sub_right_box2 .rats img {
+    border-radius: 2.5vw;
+    width: 100%;
+}
+
+.about .sub_right_box2 .rats h3 {
+    color: #6d6d6d;
+    font-size: 1vw;
+    width: 70%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+footer {
+    margin-top: -3vw;
+    background-color: #3b06eb;
+    padding: 12vw 2% 3vw 2%;
+}
+
+footer .box {
+    display: flex;
+    justify-content: space-between;    
+}
+
+footer .box h2 {
+    flex: 0 0 50%;
+    color: #ffffff;
+    font-size: 5vw;
+    font-family: 'SuisseIntl',Arial,sans-serif;
+    line-height: 0.9;
+    font-weight: 400;
+    letter-spacing: -0.1vw;
+}
+
+footer .box .sub_box {
+    /* position: relative; */
+    margin: 0 0 3vw 3vw;
+}
+
+footer .box button {
+    /* display: block; */
+    width: 22vw;
+    height: 22vw;
+    border-radius: 100%;
+    background-color: #ffffff;
+    border-color: transparent;
+    font-size: 1.6vw;
+    font-family: 'SuisseIntl',Arial,sans-serif;
+    line-height: 1.4;
+    font-weight: 400;
+    cursor: pointer;
+    transition: transform .5s;
+    transform-origin: center center;
+}
+
+footer .box button:hover{
+    transform: scale(0.95);
+}
+
+footer .box h3 {
+    margin-top: 2vw;
+    color: #ffffff;
+    font-size: 1.2vw;
+    line-height: 1.3;
+    font-family: 'SuisseIntl',Arial,sans-serif;
+    font-weight: 400;
+}
+
+footer .box2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+footer .btms button{
+    color: #ffffff;
+    font-size: 1.6vw;
+    font-family: 'SuisseIntl',Arial,sans-serif;
+    border-width: 0.1vw;
+    line-height:3;
+    border-radius: 3vw;
+    border-color: #ffffff;
+    border-style: solid;
+    background-color: transparent;
+    transition: all 0.3s;
+    padding: 0 1vw;
+    cursor: pointer;
+    transition: all 0.4s;
+}
+
+footer .btms button:hover {
+    background-color: #ffffff;
+    color: black;
+}
+
+footer .btms2{
+    align-self: flex-end;
+}
+
+footer .box2 .btms2 a{
+    margin-right: 2vw;
+    color: white;
+    color: #ffffff;
+    font-size: 1.1vw;
+    font-family: 'SuisseIntl',Arial,sans-serif;
+    font-weight: 400;
+}
+
+
+.end {
+    background-color: black;
+    cursor: pointer;
+    transition: all 0.3;
+}
+
+.eend {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.5;
+    height: 5vw;
+    text-decoration: none;
+}
+
+.end img {
+    height: 2vw;
+    width: 2vw;
+}
+
+.end h4 {
+    font-family: 'SuisseIntl',Arial,sans-serif;
+    color: white;
+    padding-right: 0.8vw;
+    font-weight: 300;
+    font-size: 1.2vw;
+    letter-spacing: -0.04vw;
+}
+
+.end h5 {
+    font-family: 'SuisseIntl',Arial,sans-serif;
+    color: white;
+    padding-left: 0.5vw;
+    font-weight: 300;
+    font-size: 1.2vw;
+    letter-spacing: 0.2vw;  
+}
+
+
+.end :hover {
+    opacity: 1;
+}
+
+

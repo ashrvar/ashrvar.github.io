@@ -1,0 +1,293 @@
+@media only screen and (max-width: 960px) {
+
+
+    /* .projects .box1 .sub_box1[disabled]:hover{
+        pointer-events: none;
+    } */
+
+
+    nav button {
+        font-size: 2.5vw;
+        width: 17vw;
+        
+    }
+
+    nav .btns {
+        margin: 0;
+    }
+
+    nav a {
+        font-size: 2.5vw;
+    }
+
+
+    section .box {
+        flex-direction: column-reverse;
+    }
+
+    section .right_container {
+        height: 100%;
+    }
+
+    section .right_container .text{
+        margin-right: 15%;
+    }
+
+    section .right_container .text h1 {  
+        font-size: 10vw;
+        font-weight: 550;
+        line-height: 1.2;
+    }
+    
+    section .right_container .text h2 {
+        margin: 6vh 0 9vh 0;
+        font-size: 4vw;
+        line-height: 1.5;
+        font-weight:lighter;
+    }
+
+    section .right_container button {
+        font-size: 4vw;
+        padding: 6vw;
+        width: 60vw;
+        border-radius: 10vw;
+        margin-bottom: 10vw;
+    }
+
+
+
+    section .main_pic {
+        width:100vw;
+        height: 90vw;
+        object-fit: cover;
+    }
+    
+    .border{
+        padding: 10vw 2vw 2vw 2vw
+    }
+    
+    .projects h2{
+        font-size: 7vw;
+    }
+    .projects .box1 {
+        flex-direction: column;
+        height: 100vh;
+    }
+    .projects .box1 .sub_box1 {
+        height: 80vh;
+        width: 100%;
+        background-image: url(../img/project_pic1.jpg);
+        background-size: 40%;
+        margin-bottom: 10vw;
+    }
+
+    .projects .box1 .sub_box2 {
+        height: 80vh;
+        width: 100%;
+        background-image: url(../img/project_pic2.jpg);
+        background-size: 50%;
+    }
+
+    .projects .box1 .button {
+        font-size: 2vw;
+        border-width: 1vw;
+    }
+
+    .projects .box1 .text {
+        font-size: 4vw;
+        top: 105%;
+    }
+
+    .projects .box2 {
+        height: 70vw;
+        margin-bottom: 15vw;
+    }
+
+    .projects .box2 button {
+        font-size: 3vw;
+        border-width: 1vw;
+    }
+
+    .projects .box2 .box2_text {
+        font-size: 4vw;
+    }
+
+    .projects .box3 {
+        flex-direction: column;
+        height: 100vh;
+        margin-bottom: 30vw;
+    }
+
+    .projects .box3 .sub_box1 {
+        height: 80vh;
+        width: 100%;
+        background-image: url(../img/project3_pic1.jpg);
+        background-size: 60%;
+        margin-bottom: 10vw;
+    }
+
+    .projects .box3 .sub_box2 {
+        height: 80vh;
+        width: 100%;
+        background-image: url(../img/project3_pic2.jpg);
+        background-size: 50%;
+    }
+
+    .projects .box3 .button {
+        font-size: 2vw;
+        border-width: 1vw;
+    }
+
+    .projects .box3 .text {
+        font-size: 4vw;
+        top: 105%;
+    }
+
+
+
+    .services{
+        margin-bottom: 15vw;
+    }
+
+    .services .big_box {
+        flex-direction: column;
+    }
+    
+    .services hr {
+        width: 100%;
+    }
+
+    .services .sub_box {
+        margin-top: 6vw;
+        margin-bottom: 6vw;
+    }
+
+    .services .text {
+        margin-left: 10vw;
+        width: 60%;
+    }
+
+    .services .text h3 {
+        font-size: 5vw;
+    }
+
+    .services .text h4 {
+        font-size: 3vw;
+    }
+
+
+    .about {
+        flex-direction: column;
+    }
+
+
+    .about h2 {
+        font-size: 5vw;
+        width: 65%;
+    }
+
+    .about .sub_right_box1 h3  {
+        font-size: 3vw;
+        width: 50%;
+    }
+
+    .about .sub_right_box2 .awards {
+        width: 50%;
+    }
+
+    .about .sub_right_box2 .awards h3 {
+    font-size: 4vw;
+    }
+
+    .about .sub_right_box2 li h4 {
+        font-size: 2.5vw;
+    }
+
+    .about .sub_right_box2 li h5 {
+        font-size: 1.5vw;
+    }
+
+    .about .sub_right_box2 .rats {
+        width: 45%;
+    }
+
+    .about .sub_right_box2 .rats h3 {
+        font-size: 2vw;
+    }
+    
+
+
+
+
+    footer {
+        height: 95%;
+    }
+
+    footer .box {
+        flex-direction: column;
+    }
+
+    footer .box h2 {
+        font-size: 8vw;
+    }
+
+    footer .box .sub_box {
+        margin: 10vw 0 15vw 0;
+    }
+
+    footer .box button {
+        width: 55vw;
+        height: 55vw;
+        font-size: 4vw;
+    }
+
+    footer .box h3  {
+        margin-top: 4vw;
+        font-size: 3vw;
+    }
+
+    footer .btms button {
+        font-size: 3vw;
+        border-radius: 5vw;
+        padding: 0 2vw ;
+    }
+
+    footer .box2 {
+        flex-direction: column;
+    }
+
+    footer .btms2 {
+        align-self: flex-start;
+        margin-top: 10vw;
+    }
+
+    footer .box2 .btms2 a {
+        font-size: 3vw;
+    }
+
+    .eend {
+        height: 10vw;
+        justify-content: center;
+    }
+
+    .end img {
+        height: 4vw;
+        width: 4vw;   
+    }
+
+    .end h4 {
+        font-size: 2vw;
+        width: 9vw; 
+        padding-right: 0.1vw;
+    }
+
+    .end h5 {
+        font-size: 2vw;
+        height: 3vw;
+        width: 10vw;
+        padding-left: 1vw; 
+    }
+
+
+
+}
